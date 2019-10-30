@@ -23,6 +23,19 @@ for i in ${array[*]} #必须以这种方式展开字符串
 do
     echo "array element ${i}"
 done
+#5)遍历从外部输入的参数
+if [ $# -eq 0 ];
+then
+ echo "参数个数为0"
+fi
 
-#5)变量赋值不留余地
+for i in $*
+do
+ echo "参数输出 $i"
+done
+
+#6)如何执行一串字符串命令
+CMD="docker ps -a --format \"table {{.ID}} \t{{.Image}} \t \""
+
+eval ${CMD}
 
