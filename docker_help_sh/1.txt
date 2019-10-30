@@ -1,1 +1,0 @@
-CONTAINER ID IMAGE ed8e6dddc8b6 hello-world 7dcd78d2b781 hello-world a62247f566fe hello-world 1984f91548c0 a123f3eeaad2 2bac7330e688 4c0139e55ed5 c631bfa8fb4e 12dfc49b9859 c52c1a03a3d4 415381a6cb81 da77b114be9c 702fb0b7837f e252419372fe e31e50a2a605 29bf243a4a51 e31e50a2a605
