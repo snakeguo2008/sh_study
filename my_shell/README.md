@@ -36,6 +36,6 @@ done
 
 #6)如何执行一串字符串命令
 CMD="docker ps -a --format \"table {{.ID}} \t{{.Image}} \t \""
-
+#使用eval命令执行字符串拼接的命令
 eval ${CMD}
 
